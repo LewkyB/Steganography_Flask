@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    
+    <h1>File uploaded successfully!</h1>
+
+    {{ if encrypted_file }}
+    
+        <p>Get your encrypted file <a href="">here</a>.</p>
+    
+    {{ endif }}
+      
+{% endblock %}

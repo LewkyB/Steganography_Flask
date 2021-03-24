@@ -1,0 +1,2529 @@
+[
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#bash",
+        "date": "2021-03-15 15:17:27",
+        "nick": "llua",
+        "embedded_video_url": "https://www.youtube.com/embed/olH-9b3VJfs"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#linuxmasterrace",
+        "date": "2021-03-15 15:55:29",
+        "nick": "Fruust",
+        "embedded_video_url": "https://www.youtube.com/embed/d5VbHxmbiG0"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 19:31:56",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/cmZNLyJViuE"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 19:42:55",
+        "nick": "Alleria_",
+        "embedded_video_url": "https://www.youtube.com/embed/P4bSgkCQ4cI"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-15 19:50:19",
+        "nick": "SillyGoose",
+        "embedded_video_url": "https://www.youtube.com/embed/WWwPeevGUG0"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 20:35:21",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/zSgiXGELjbc"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 20:35:49",
+        "nick": "roshambo",
+        "embedded_video_url": "https://www.youtube.com/embed/EKTFj5UEI3E"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##chess",
+        "date": "2021-03-15 20:57:48",
+        "nick": "eyeoh",
+        "embedded_video_url": "https://www.youtube.com/embed/2H0n-bScU3o"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##chess",
+        "date": "2021-03-15 21:27:54",
+        "nick": "eyeoh",
+        "embedded_video_url": "https://www.youtube.com/embed/HbO7PYDY0rU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-15 21:28:04",
+        "nick": "elf",
+        "embedded_video_url": "https://www.youtube.com/embed/74_N163HyhA"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 21:34:53",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/Cun-LZvOTdw"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 21:42:17",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/3deNVM3EWIc"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 21:45:41",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/lb13ynu3Iac"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 21:54:41",
+        "nick": "jeho",
+        "embedded_video_url": "https://www.youtube.com/embed/mFzmbak7ZC8"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 22:22:23",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/cntvEDbagAw"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 22:35:39",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/3JWTaaS7LdU"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 22:48:28",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/HTDjD_UdJYs"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 22:51:57",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/ucTg6rZJCu4"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-15 22:54:17",
+        "nick": "roshambo",
+        "embedded_video_url": "https://www.youtube.com/embed/acT_PSAZ7BQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-15 23:02:32",
+        "nick": "Ashstar",
+        "embedded_video_url": "https://www.youtube.com/embed/a5jQqkktvsE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-15 23:03:18",
+        "nick": "Ashstar",
+        "embedded_video_url": "https://www.youtube.com/embed/WetZdYCBWXs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-15 23:03:50",
+        "nick": "Ashstar",
+        "embedded_video_url": "https://www.youtube.com/embed/WetZdYCBWXs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##linux",
+        "date": "2021-03-16 03:10:00",
+        "nick": "adamik",
+        "embedded_video_url": "https://www.youtube.com/embed/l4bD-hvy9mQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-16 06:06:25",
+        "nick": "truthr",
+        "embedded_video_url": "https://www.youtube.com/embed/FRNLZmW3viw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 06:31:52",
+        "nick": "hitek",
+        "embedded_video_url": "https://www.youtube.com/embed/Py4kgTokYOA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 06:56:36",
+        "nick": "hata",
+        "embedded_video_url": "https://www.youtube.com/embed/9Dcj7tB4NCk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 07:46:14",
+        "nick": "XLV",
+        "embedded_video_url": "https://www.youtube.com/embed/yN4Ptjy_PL4"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 07:51:45",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/8hr3Stnk8_k"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 09:39:09",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/eZRqDgigpJE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 09:47:02",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/gePkM8RDN4Q"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 09:54:04",
+        "nick": "AtheistAndroid",
+        "embedded_video_url": "https://www.youtube.com/embed/DWWvl5dSmEs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 09:58:20",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/jLpkWPpNRo0"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 10:07:41",
+        "nick": "corvusmalus",
+        "embedded_video_url": "https://www.youtube.com/embed/EeoYX_OUwY8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:07:43",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/YtdHG0wF_Zc"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 10:10:57",
+        "nick": "corvusmalus",
+        "embedded_video_url": "https://www.youtube.com/embed/1bcm6o_loWc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:12:43",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/p8PEMI_xyoI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:18:09",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/w_2CAOS1OsE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:18:45",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/p6QOM8qnOmk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:20:30",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/uGUUzqj_vyU"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 10:20:35",
+        "nick": "gitgood",
+        "embedded_video_url": "https://www.youtube.com/embed/soFM0je7YTQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##linux",
+        "date": "2021-03-16 10:26:31",
+        "nick": "adamik",
+        "embedded_video_url": "https://www.youtube.com/embed/QDmWYVdN8ug"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:28:09",
+        "nick": "Maestro",
+        "embedded_video_url": "https://www.youtube.com/embed/fHlUv5rBcWg"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 10:32:56",
+        "nick": "corvusmalus",
+        "embedded_video_url": "https://www.youtube.com/embed/IVsh4Z4eGWE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:33:46",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/rSYwtllbweY"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 10:34:19",
+        "nick": "gitgood",
+        "embedded_video_url": "https://www.youtube.com/embed/TqkSH1YLXdg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:36:06",
+        "nick": "ezio",
+        "embedded_video_url": "https://www.youtube.com/embed/Dr4iix9-4oU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:36:51",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/qmsbP13xu6k"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:39:21",
+        "nick": "OldSch00l",
+        "embedded_video_url": "https://www.youtube.com/embed/_JPa3BNi6l4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:41:47",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/bPIMfOIuEe4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:43:48",
+        "nick": "ezio",
+        "embedded_video_url": "https://www.youtube.com/embed/99JS6ym5FNE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:51:15",
+        "nick": "Panther",
+        "embedded_video_url": "https://www.youtube.com/embed/sMCA9nYnLWo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:54:14",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/1y3TKv7Chk4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 10:59:08",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/eX_k5_egUAo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 11:04:15",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/in9RfJdbfyw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 11:07:38",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/9J7kjS75KnE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##philosophy",
+        "date": "2021-03-16 11:13:04",
+        "nick": "audrey",
+        "embedded_video_url": "https://www.youtube.com/embed/CW2u_4ftqNo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##philosophy",
+        "date": "2021-03-16 11:18:50",
+        "nick": "audrey",
+        "embedded_video_url": "https://www.youtube.com/embed/SGDsr0nyvsg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##philosophy",
+        "date": "2021-03-16 11:31:56",
+        "nick": "audrey",
+        "embedded_video_url": "https://www.youtube.com/embed/6XpIg7xS640"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-16 11:31:58",
+        "nick": "dbkb",
+        "embedded_video_url": "https://www.youtube.com/embed/0q-0H1of20E"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 11:58:47",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/in9RfJdbfyw"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 12:05:44",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/tV5wmDhzgY8"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 12:06:34",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/BJESLxEd0Tk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:09:48",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/in9RfJdbfyw"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 12:19:45",
+        "nick": "WargasmXZ",
+        "embedded_video_url": "https://www.youtube.com/embed/C_2Ef-2fwGw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:25:54",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/3KL9mRus19o"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:28:37",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/OQdY0LCqoeg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:36:29",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/GLQ2TIul8pI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:40:59",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/o7Mxz1sucuE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:43:28",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/9Hy-AoMiYX0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:50:58",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/SI9ke2Ju7XY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:53:54",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/SI9ke2Ju7XY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:54:03",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/S2dF_lnOEaw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 12:55:47",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/SI9ke2Ju7XY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:00:44",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/jDmth1YZI7k"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:03:37",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/pqSn6r8Lpjc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:04:51",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/SVOuYquXuuc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:09:42",
+        "nick": "DELerious",
+        "embedded_video_url": "https://www.youtube.com/embed/fv0ld_TO0JE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:13:38",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/Qy1UmMkfPsA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:21:30",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/tOUxDN8cvto"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:22:52",
+        "nick": "prude",
+        "embedded_video_url": "https://www.youtube.com/embed/kHKQC-k3hXU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:29:42",
+        "nick": "sublim20",
+        "embedded_video_url": "https://www.youtube.com/embed/z5rRZdiu1UE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:32:18",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/Bj-Qez1kIUA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:33:27",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/vhygbuTGyvA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:34:37",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/t6twhXA1Gyw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:36:05",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/RkFKbd0LraY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:37:33",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/JgffRW1fKDk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:39:02",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/tPSjzMMEORc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:39:55",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/AXbCz0UFHrU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 13:42:43",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/S5bqiLuhGEY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 14:07:57",
+        "nick": "murthy",
+        "embedded_video_url": "https://www.youtube.com/embed/0XNVXCe-vV0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 14:10:48",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/JXVnFQVAAk4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 15:16:39",
+        "nick": "circuitbone",
+        "embedded_video_url": "https://www.youtube.com/embed/3l-XiyFygzI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 15:36:27",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/P-mAjuNBVEs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-16 15:52:28",
+        "nick": "dbkb",
+        "embedded_video_url": "https://www.youtube.com/embed/GFC9xvuyusE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 15:54:32",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/-LUTXP1_Qrk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 15:57:12",
+        "nick": "kzootech",
+        "embedded_video_url": "https://www.youtube.com/embed/w1mE2j1axIo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 16:10:38",
+        "nick": "Cowclops",
+        "embedded_video_url": "https://www.youtube.com/embed/UTSdUOC8Kac"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 16:10:58",
+        "nick": "kzootech",
+        "embedded_video_url": "https://www.youtube.com/embed/w1mE2j1axIo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 16:15:03",
+        "nick": "kzootech",
+        "embedded_video_url": "https://www.youtube.com/embed/PXrONOzpM4A"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 16:16:21",
+        "nick": "Cowclops",
+        "embedded_video_url": "https://www.youtube.com/embed/WY7olqQF8iM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##c++",
+        "date": "2021-03-16 16:24:54",
+        "nick": "PJBoy",
+        "embedded_video_url": "https://www.youtube.com/embed/tbUCHifyT24"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##linux",
+        "date": "2021-03-16 16:40:18",
+        "nick": "raffaem2",
+        "embedded_video_url": "https://www.youtube.com/embed/V4U07_4rvbM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 16:44:12",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/p3yw6897F_A"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 16:54:22",
+        "nick": "Alleria_",
+        "embedded_video_url": "https://www.youtube.com/embed/2IH8tNQAzSs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 16:55:09",
+        "nick": "murthy",
+        "embedded_video_url": "https://www.youtube.com/embed/2phzK85kSRw"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 17:01:52",
+        "nick": "stablegenius",
+        "embedded_video_url": "https://www.youtube.com/embed/mAcEqLxdC2c"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 17:02:25",
+        "nick": "murthy",
+        "embedded_video_url": "https://www.youtube.com/embed/iRvqHwfnTMg"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#linuxmasterrace",
+        "date": "2021-03-16 17:05:58",
+        "nick": "scotch",
+        "embedded_video_url": "https://www.youtube.com/embed/WBMcoJWo92Y"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 17:28:41",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/RacxNskxySo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 17:50:19",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/aNYdg1wvfZY"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-16 17:55:15",
+        "nick": "whoami",
+        "embedded_video_url": "https://www.youtube.com/embed/GtfZbj4J71A"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-16 17:55:44",
+        "nick": "whoami",
+        "embedded_video_url": "https://www.youtube.com/embed/0XFudmaObLI"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-16 17:55:51",
+        "nick": "kylef",
+        "embedded_video_url": "https://www.youtube.com/embed/rsEeiIrJy4E"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-16 17:56:02",
+        "nick": "whoami",
+        "embedded_video_url": "https://www.youtube.com/embed/bYvt0boSRXQ"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-16 17:56:39",
+        "nick": "kylef",
+        "embedded_video_url": "https://www.youtube.com/embed/XULMZ907ios"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 17:57:24",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/O4Q1WANL_4Q"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-16 18:22:27",
+        "nick": "garandil",
+        "embedded_video_url": "https://www.youtube.com/embed/fKpsohmQMwE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 18:25:58",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/zcSlcNfThUA"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 18:28:09",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/1E1VY4KOghI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-16 18:29:22",
+        "nick": "sollove",
+        "embedded_video_url": "https://www.youtube.com/embed/l4nOHdUntyM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 18:35:01",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/7lBs4vrHi24"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 18:35:07",
+        "nick": "circuitbone",
+        "embedded_video_url": "https://www.youtube.com/embed/s6jaYJx7yeI"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 18:43:16",
+        "nick": "stablegenius",
+        "embedded_video_url": "https://www.youtube.com/embed/D-Dk9kR22sA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-16 18:45:21",
+        "nick": "WillPittenger",
+        "embedded_video_url": "https://www.youtube.com/embed/0PBsbNoAcMk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 18:56:37",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/iC9JDwCCimA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 18:57:14",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/_RT7c0UnaUg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-16 19:06:21",
+        "nick": "WillPittenger",
+        "embedded_video_url": "https://www.youtube.com/embed/Wv7crXWxzkg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:07:34",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/NErOZP0cuKQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:07:45",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/kz-bBmvq5wI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:11:09",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/sHSLWOh3lJg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:11:21",
+        "nick": "wasilewski",
+        "embedded_video_url": "https://www.youtube.com/embed/NrHYxPd5UQY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:14:16",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/BuQG6_evFc8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:16:30",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/KbMoXaU0oPQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-16 19:20:02",
+        "nick": "flyback",
+        "embedded_video_url": "https://www.youtube.com/embed/JMpXNxUQiMQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:35:46",
+        "nick": "Panther",
+        "embedded_video_url": "https://www.youtube.com/embed/HOuc0kuKRV4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:41:10",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/WK7zDk-lqEI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:48:16",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/ZQKbNved5AY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 19:57:42",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/in9RfJdbfyw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:06:34",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/ADdpLv3RDhA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:13:10",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/LH8gUhDd6WE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:18:45",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/uJ5HxdNlpMk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:19:55",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/fcYY6xwwfCE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:24:40",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/nFQhlpB6N2A"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:30:26",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/DECp8LKurKs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:31:04",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/T8DDiHrr2Cs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:33:30",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/rE34z7uVjSM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-16 20:35:06",
+        "nick": "mrdata-",
+        "embedded_video_url": "https://www.youtube.com/embed/OUq7jOVHvCI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:45:58",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/jKdTJhP397M"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:47:06",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/eZRqDgigpJEf"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-16 20:51:34",
+        "nick": "SeanDHHillyer",
+        "embedded_video_url": "https://www.youtube.com/embed/xqjbY2sa_lo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:56:18",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/eZRqDgigpJEf"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:56:27",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/eZRqDgigpJEf"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:56:34",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/eZRqDgigpJEf"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 20:57:09",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/ONScyaIdBbU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:02:30",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/f9yb88fa4MA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:05:32",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/O_er0dyp2EI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:05:50",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/PD3RCwNseqQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:07:15",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/nsVEfeGkQck"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:07:43",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/sR_rPd_ufK4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:10:25",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/hT7x1NvGf5k"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:11:06",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/27k7w0tRUM4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:12:31",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/fUmuXJk1gu0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:13:33",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/ThqjMOaWdQo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:14:50",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/hW7hMv4rlUo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:18:51",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/t6OBk9YBLQU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:19:32",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/HPkuEIgo2-o"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:22:35",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/ruXsFuYY6Fk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:26:45",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/sYsXKhBknyM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:51:48",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/ucsOViiMF7w"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 21:55:37",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/5II0bmKxY08"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##networking",
+        "date": "2021-03-16 22:05:02",
+        "nick": "Samot",
+        "embedded_video_url": "https://www.youtube.com/embed/EHSoN8t6x3M"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:06:02",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/eAN6mn1ysCc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:13:26",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/vzWds5gWS6c"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:18:35",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/mwzlySJJJQQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:25:36",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/9QX4bQPw-_w"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:27:52",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/8eQ9kYvNsEU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:29:23",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/BepJkFu9jV8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:34:34",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/J9fhUladvAU"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-16 22:36:36",
+        "nick": "ne1uno",
+        "embedded_video_url": "https://www.youtube.com/embed/nhN0x6m1fMo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:37:17",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/uid_8u7T13Y"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:42:24",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/-QfuARPJew4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:43:53",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/X2j3i8MOBmk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:50:49",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/U7gbFMWZWlo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 22:59:26",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/eS_korRhTDk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:05:20",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/Fwi1qgSaxZY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:08:43",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/scGd4fmGrTE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:12:50",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/NkRkuI0ZgX0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:15:45",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/WPs0R-gZbZM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:18:46",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/VODKZxsRa_E"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:27:52",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/TSffz_bl6zo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:34:42",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/7tThYxp5kmk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:38:29",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/ZyhrYis509A"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:38:32",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/ZyhrYis509A"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:41:49",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/XhzpxjuwZy0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:41:58",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/XhzpxjuwZy0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:42:04",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/SPlQpGeTbIE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:47:04",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/sGNK-cOtxSs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:51:23",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/sGNK-cOtxSs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:51:44",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/5rAOyh7YmEc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-16 23:53:42",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/FglU0X-Vyrw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##linux",
+        "date": "2021-03-16 23:55:28",
+        "nick": "iflema",
+        "embedded_video_url": "https://www.youtube.com/embed/yW2uHDhgYl4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 00:01:38",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/KI_OgLaWVH0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 00:07:24",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/1wl5BbUg05M"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-17 00:09:43",
+        "nick": "kzootech",
+        "embedded_video_url": "https://www.youtube.com/embed/cHkdQ5CG0PY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 00:10:30",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/2YllipGl2Is"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 00:11:56",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/bkH9rZz67Sk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 00:19:02",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/TO7xC2nEEWU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 00:22:32",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/awPo_VZabRc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 00:25:29",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/8F2czVqpLZU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 00:28:39",
+        "nick": "morf",
+        "embedded_video_url": "https://www.youtube.com/embed/7yh9i0PAjck"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##linux",
+        "date": "2021-03-17 00:40:35",
+        "nick": "adamik_",
+        "embedded_video_url": "https://www.youtube.com/embed/sTWD0j4tec4"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 01:12:26",
+        "nick": "_Wednesday_",
+        "embedded_video_url": "https://www.youtube.com/embed/Zzyfcys1aLM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-17 02:17:33",
+        "nick": "droid37",
+        "embedded_video_url": "https://www.youtube.com/embed/JUVt_KYAp-I"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 02:31:19",
+        "nick": "rabbitear_g",
+        "embedded_video_url": "https://www.youtube.com/embed/y6c0ukSWdEs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 02:53:33",
+        "nick": "ultros",
+        "embedded_video_url": "https://www.youtube.com/embed/bxHjytBY7Z8"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 03:08:23",
+        "nick": "Mir4g3",
+        "embedded_video_url": "https://www.youtube.com/embed/-2jRYkOaP_Y"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 04:13:01",
+        "nick": "rabbitear_g",
+        "embedded_video_url": "https://www.youtube.com/embed/GZDl_R8Zp2E"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 04:28:20",
+        "nick": "WillPittenger",
+        "embedded_video_url": "https://www.youtube.com/embed/DnFPkmw99vU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 04:38:00",
+        "nick": "WillPittenger",
+        "embedded_video_url": "https://www.youtube.com/embed/T-02cPDatIs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 04:39:07",
+        "nick": "mattmcc",
+        "embedded_video_url": "https://www.youtube.com/embed/3bmJKpRk3Zs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 04:44:06",
+        "nick": "WillPittenger",
+        "embedded_video_url": "https://www.youtube.com/embed/I2HIkYSgCac"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 04:53:55",
+        "nick": "WillPittenger",
+        "embedded_video_url": "https://www.youtube.com/embed/z2BsrucFHwg"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-17 05:02:40",
+        "nick": "obviyus",
+        "embedded_video_url": "https://www.youtube.com/embed/K8lHZJqKPpA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 05:07:58",
+        "nick": "OldSch00l",
+        "embedded_video_url": "https://www.youtube.com/embed/bxHjytBY7Z8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 05:08:44",
+        "nick": "WillPittenger",
+        "embedded_video_url": "https://www.youtube.com/embed/uVvvfkBLP18"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 05:23:27",
+        "nick": "OldSch00l",
+        "embedded_video_url": "https://www.youtube.com/embed/QNPLHFxhKOY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 05:24:50",
+        "nick": "wonderer",
+        "embedded_video_url": "https://www.youtube.com/embed/gA6ppby3JC8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 05:56:45",
+        "nick": "truthr",
+        "embedded_video_url": "https://www.youtube.com/embed/FRNLZmW3viw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 06:55:18",
+        "nick": "DELerious",
+        "embedded_video_url": "https://www.youtube.com/embed/WtApPwO7pE0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 07:05:11",
+        "nick": "riff-IRC",
+        "embedded_video_url": "https://www.youtube.com/embed/7319fNb8DGk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 07:28:01",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/1HHMA1Dpo5M"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 07:41:13",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/f7RwDnZI7Tw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 07:44:49",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/zoTevRomRFg"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 07:47:22",
+        "nick": "Alleria",
+        "embedded_video_url": "https://www.youtube.com/embed/DTtETj3MtzA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 07:57:17",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/UjRVBIqXAig"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 08:02:03",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/rSFhDlNSQVk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 08:07:14",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/m94-ih0gf7k"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 08:24:54",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/W5_8U4j51lI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 08:29:08",
+        "nick": "Panther",
+        "embedded_video_url": "https://www.youtube.com/embed/6xcwt9mSbYE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 08:43:57",
+        "nick": "dbkb",
+        "embedded_video_url": "https://www.youtube.com/embed/ot_xX54uluQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 08:44:13",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/uL9jtjJ3zv0"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 08:51:30",
+        "nick": "PersephoneFlowers",
+        "embedded_video_url": "https://www.youtube.com/embed/EbLDIv132EA"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 09:02:26",
+        "nick": "mosasaur",
+        "embedded_video_url": "https://www.youtube.com/embed/c3_s3lp-j7M"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 09:15:03",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/TOdo7dhvSwg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 09:21:01",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/Am1LpryHuXk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 09:25:09",
+        "nick": "MaxwellB",
+        "embedded_video_url": "https://www.youtube.com/embed/WRCA_Fo0rWA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 09:26:20",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/8Gxyo3XDVMU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 09:30:12",
+        "nick": "MaxwellB",
+        "embedded_video_url": "https://www.youtube.com/embed/qkk5wViJo-I"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 09:37:21",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/hZnY4eQ92Fw"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#linuxmasterrace",
+        "date": "2021-03-17 09:55:22",
+        "nick": "SBL",
+        "embedded_video_url": "https://www.youtube.com/embed/y1iglyGr_iY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 10:00:31",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/v66HiF91gjQ"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#darkscience",
+        "date": "2021-03-17 10:19:55",
+        "nick": "LizardBurgers",
+        "embedded_video_url": "https://www.youtube.com/embed/7utMaDb1W08"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 10:21:53",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/rxdo4HeMoJw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 10:37:09",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/QQPJYnr48yU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##chess",
+        "date": "2021-03-17 10:40:04",
+        "nick": "eyeoh",
+        "embedded_video_url": "https://www.youtube.com/embed/ga9BvsXbqSA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##networking",
+        "date": "2021-03-17 10:43:21",
+        "nick": "imMute",
+        "embedded_video_url": "https://www.youtube.com/embed/bj-Yfakjllc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 10:51:03",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/m3OvOwStRi8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 10:51:38",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/89NjEeHku8o"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 10:51:46",
+        "nick": "hassoon2",
+        "embedded_video_url": "https://www.youtube.com/embed/f-SxaMNa2Fk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##chess",
+        "date": "2021-03-17 11:03:21",
+        "nick": "iz",
+        "embedded_video_url": "https://www.youtube.com/embed/SX30zWbbz6E"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:06:00",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/_MG6iJfGBao"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:06:20",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/YcdvVOhWmIA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:06:34",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/pGtN2pO08hA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:07:06",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/k3VO-w_zN3c"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:08:50",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/Sh2-P8hG5-E"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:11:21",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/e3fqE01YYWs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:12:02",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/aApnZaJi0NE"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:12:17",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/CRu_hG3X3bI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##chess",
+        "date": "2021-03-17 11:12:47",
+        "nick": "eyeoh",
+        "embedded_video_url": "https://www.youtube.com/embed/-sEnn4YHqIQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:14:00",
+        "nick": "DELerious",
+        "embedded_video_url": "https://www.youtube.com/embed/VU204hlk-iw"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:20:49",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/agP21beeuCM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:22:33",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/HckvGQeYmiU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:22:59",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/PIwq_iKjFFw"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 11:27:11",
+        "nick": "Alleria",
+        "embedded_video_url": "https://www.youtube.com/embed/CGOt8dZRsHk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:28:55",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/XhWvysQhciQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##philosophy",
+        "date": "2021-03-17 11:30:01",
+        "nick": "aether",
+        "embedded_video_url": "https://www.youtube.com/embed/qEi_32axaBY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:37:26",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/ZWjRMniYud8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:37:26",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/vlk9s5gPgXY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:47:12",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/0alwstDzmVY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 11:48:27",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/qv9yzwzOaiQ"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 11:52:13",
+        "nick": "stablegenius",
+        "embedded_video_url": "https://www.youtube.com/embed/aNghg1Y-WIc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 12:10:21",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/jfaW-yD7DoA"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 13:02:53",
+        "nick": "DELerious",
+        "embedded_video_url": "https://www.youtube.com/embed/ijcCYYjGbsg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 13:29:31",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/8md5jmHF8w8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##philosophy",
+        "date": "2021-03-17 13:30:53",
+        "nick": "_kmh_",
+        "embedded_video_url": "https://www.youtube.com/embed/RvlUGYvLg0s"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 13:35:29",
+        "nick": "dbkb",
+        "embedded_video_url": "https://www.youtube.com/embed/5_sqUPub2F4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 13:36:43",
+        "nick": "dbkb",
+        "embedded_video_url": "https://www.youtube.com/embed/sTA0GTgFn5E"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 13:59:13",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/elqwn7k2Wwk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##philosophy",
+        "date": "2021-03-17 14:02:32",
+        "nick": "_kmh_",
+        "embedded_video_url": "https://www.youtube.com/embed/whIZTN7K0Zo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##philosophy",
+        "date": "2021-03-17 14:05:11",
+        "nick": "_kmh_",
+        "embedded_video_url": "https://www.youtube.com/embed/c-zaXYOYXJY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##networking",
+        "date": "2021-03-17 14:09:51",
+        "nick": "cj",
+        "embedded_video_url": "https://www.youtube.com/embed/qDJ16kLe2hI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 14:10:57",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/aNghg1Y-WIc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-17 14:18:25",
+        "nick": "XLV",
+        "embedded_video_url": "https://www.youtube.com/embed/Mi21sR8hfr8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 14:24:53",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/BjS0eC8SDhg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 14:46:25",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/FpGT5KJDxl4"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 14:53:59",
+        "nick": "stablegenius",
+        "embedded_video_url": "https://www.youtube.com/embed/ha2mLz-Xdpg"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 15:02:44",
+        "nick": "roshambo",
+        "embedded_video_url": "https://www.youtube.com/embed/ehukpdse8_w"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 15:04:16",
+        "nick": "stablegenius",
+        "embedded_video_url": "https://www.youtube.com/embed/aIvRR_y5i-k"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#linuxmasterrace",
+        "date": "2021-03-17 15:09:32",
+        "nick": "fear",
+        "embedded_video_url": "https://www.youtube.com/embed/fYXUPLI4wz8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 15:24:33",
+        "nick": "sollove",
+        "embedded_video_url": "https://www.youtube.com/embed/t_oJTO7G4zU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 15:28:27",
+        "nick": "cloudevil",
+        "embedded_video_url": "https://www.youtube.com/embed/WK5YXZIIEKU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 15:32:49",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/UO-qcajamG4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 15:34:49",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/_0OagnhzJjI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 15:36:32",
+        "nick": "bomb",
+        "embedded_video_url": "https://www.youtube.com/embed/lSPHu9qBaa0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 15:48:28",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/JjX62x74QEI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:21:16",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/x-64CaD8GXw"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 16:21:29",
+        "nick": "jeho",
+        "embedded_video_url": "https://www.youtube.com/embed/Mo10ip4BdvI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:27:44",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/UIE4UjBtx-o"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 16:31:26",
+        "nick": "jeho",
+        "embedded_video_url": "https://www.youtube.com/embed/h0TRpGP8yH4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:31:37",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/RRCMos6yg50"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:33:20",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/xbJxcFyaCpI"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:33:28",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/1AOp9c5DRzc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:33:49",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/GfTRMttapDc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:36:24",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/9ZrAYxWPN6c"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:36:47",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/-TZhJtgcNEI"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 16:38:36",
+        "nick": "WargasmXZ",
+        "embedded_video_url": "https://www.youtube.com/embed/BKWRqH-vK_w"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:47:31",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/LoF_a0-7xVQ"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:48:26",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/S7woEXovruc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:51:36",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/X9jXnZS3ouU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:52:48",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/Sdn8SNYyjxc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:53:17",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/TpG1840WZF0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##chess",
+        "date": "2021-03-17 16:53:24",
+        "nick": "artao",
+        "embedded_video_url": "https://www.youtube.com/embed/Sdn8SNYyjxc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 16:53:37",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/a4uI8jNY_hU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 16:54:43",
+        "nick": "WillPittenger",
+        "embedded_video_url": "https://www.youtube.com/embed/WK5YXZIIEKU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:00:00",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/GzZWSrr5wFI"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 17:01:03",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/rvkPn2MHX74"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:02:33",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/B2cph1Aq6gU"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 17:09:27",
+        "nick": "jeho",
+        "embedded_video_url": "https://www.youtube.com/embed/YQpTWK1sNW4"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 17:10:18",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/jbNYSIDBeIk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:10:49",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/wkdHCazMiBE"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 17:11:48",
+        "nick": "WargasmXZ",
+        "embedded_video_url": "https://www.youtube.com/embed/rH99OLzc7eU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:16:55",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/jhgVu2lsi_k"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 17:18:27",
+        "nick": "argentum",
+        "embedded_video_url": "https://www.youtube.com/embed/wIwRB7r6wM4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:22:31",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/TAqZb52sgpU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:29:06",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/XmIqIVxUuKs"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:35:11",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/kLumLALNG7M"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#linuxmasterrace",
+        "date": "2021-03-17 17:35:17",
+        "nick": "fear",
+        "embedded_video_url": "https://www.youtube.com/embed/uYiEXwti1_U"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 17:35:43",
+        "nick": "WargasmXZ",
+        "embedded_video_url": "https://www.youtube.com/embed/m9ZNB_Udvek"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:40:09",
+        "nick": "nativetexan",
+        "embedded_video_url": "https://www.youtube.com/embed/6zpvlMp04D0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 17:42:42",
+        "nick": "solsta",
+        "embedded_video_url": "https://www.youtube.com/embed/5l0dAGoCcJY"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 17:50:05",
+        "nick": "aamoeba",
+        "embedded_video_url": "https://www.youtube.com/embed/LA4gI69CMsg"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#linuxmasterrace",
+        "date": "2021-03-17 17:58:11",
+        "nick": "fear",
+        "embedded_video_url": "https://www.youtube.com/embed/5NNO5Kb-PZo"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 18:03:08",
+        "nick": "wasilewski",
+        "embedded_video_url": "https://www.youtube.com/embed/z1iar54Nkl8"
+    },
+    {
+        "server": "irc.darkscience.net",
+        "chatroom": "#gaming",
+        "date": "2021-03-17 18:07:40",
+        "nick": "JoseAlPaca",
+        "embedded_video_url": "https://www.youtube.com/embed/iXPMsaHkz5s"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#space",
+        "date": "2021-03-17 18:16:22",
+        "nick": "mrdata-",
+        "embedded_video_url": "https://www.youtube.com/embed/richjW1jj20"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 18:30:10",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/QHVp9xiUr9U"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 18:35:18",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/2ZOs7YXqCng"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 18:40:07",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/38by00DGid0"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 18:41:16",
+        "nick": "DOMF",
+        "embedded_video_url": "https://www.youtube.com/embed/LYCYJA5DIp8"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##philosophy",
+        "date": "2021-03-17 18:55:51",
+        "nick": "[itchyjunk]",
+        "embedded_video_url": "https://www.youtube.com/embed/25G-a4UZyRg"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 18:57:30",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/EZKApT6vC0g"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 19:27:48",
+        "nick": "ForexTrader`",
+        "embedded_video_url": "https://www.youtube.com/embed/ZFdLXc9h7Zk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-17 19:42:02",
+        "nick": "droid3",
+        "embedded_video_url": "https://www.youtube.com/embed/3LlsfSkevGY"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 19:55:58",
+        "nick": "gonzobot",
+        "embedded_video_url": "https://www.youtube.com/embed/jYvQCwU0xgc"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 20:04:05",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/kq-VNCGBDRU"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-17 20:11:34",
+        "nick": "droid3",
+        "embedded_video_url": "https://www.youtube.com/embed/naGYYPhcwys"
+    },
+    {
+        "server": "travincal.snoonet.org",
+        "chatroom": "#politics",
+        "date": "2021-03-17 20:20:40",
+        "nick": "lowthiing",
+        "embedded_video_url": "https://www.youtube.com/embed/Lfwiwt1OAZk"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 20:21:42",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/fV5lRd7uvH4"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 20:32:00",
+        "nick": "morlog",
+        "embedded_video_url": "https://www.youtube.com/embed/XflfiylNNXY"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "##hardware",
+        "date": "2021-03-17 20:33:45",
+        "nick": "kzootech",
+        "embedded_video_url": "https://www.youtube.com/embed/VTjE25FPsNM"
+    },
+    {
+        "server": "chat.freenode.net",
+        "chatroom": "#music",
+        "date": "2021-03-17 20:47:15",
+        "nick": "macrobat",
+        "embedded_video_url": "https://www.youtube.com/embed/L1XAM6PnQKI"
+    }
+]

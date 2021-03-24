@@ -1,0 +1,53 @@
+[
+    {
+        "network_name": "Freenode",
+        "network_address": "chat.freenode.net",
+        "channel_list": [
+            "##C",
+            "##c++",
+            "##chess",
+            "##hardware",
+            "##history",
+            "##linux",
+            "##networking",
+            "##philosophy",
+            "##stop_join_flood",
+            "#archlinux",
+            "#bash",
+            "#clojure",
+            "#haskell",
+            "#ipfs",
+            "#learnprogramming",
+            "#lpmc",
+            "#music",
+            "#python",
+            "#space",
+            "#wikipedia-en"
+        ]
+    },
+    {
+        "network_name": "darkscience",
+        "network_address": "irc.darkscience.net",
+        "channel_list": [
+            "#darkscience",
+            "#finance",
+            "#gaming",
+            "#idlerpg",
+            "#movies",
+            "#politics",
+            "#sysadmin"
+        ]
+    },
+    {
+        "network_name": "Snoonet",
+        "network_address": "travincal.snoonet.org",
+        "channel_list": [
+            "#linux",
+            "#linuxmasterrace",
+            "#news",
+            "#politics",
+            "#reddit",
+            "#space"
+        ]
+    }
+]

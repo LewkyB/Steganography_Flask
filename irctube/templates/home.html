@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<h4>Instructions:</h4>
+
+<ol>
+   <li>Enter the message that you would like encrypted into the text box. </li>
+   <li>Select the file to add the encrypted message with the browse button.</li>
+   <li>Upload the selected file by using the upload button.</li>
+</ol>
+
+<div>
+   <form action="http://localhost:5000/upload_success" method="POST" enctype="multipart/form-data">
+
+      <input name="message_to_encrypt_textbox" placeholder="message to be encypted here">
+
+      <div>
+         <input type="file" name="user_image_file" />
+         <input type="submit" name="upload_file_button" value="upload" />
+      </div>
+
+   </form>
+</div>
+
+{% endblock %}

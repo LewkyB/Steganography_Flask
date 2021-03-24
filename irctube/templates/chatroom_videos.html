@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}{{ server_name }} Videos{% endblock %}
+
+{% block content %}
+<h1>{{ videos['chatroom'] }} Videos</h1>
+
+<p>Browse all videos from {{ channel_name }}</p>
+{% for video in videos %}
+  <div>
+    {{ video['nick']}}
+    {{ video['date']}}
+  </div>
+  <div>
+    <!-- {{ video['embedded_video_url'] }} -->
+    <iframe width="560" height="315" src="{{ video['embedded_video_url'] }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+{% endfor %}
+{% endblock %}

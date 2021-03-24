@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}{% endblock %} - Luke Brown's Steganography Service</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">Luke Brown's Steganography Service</a>
+        </h3>
+      </header>
+
+      <div id="content">{% block content %}{% endblock %}</div>
+
+      <footer class="footer">
+        <small>
+          &copy; 2021. All rights reserved.
+        </small>
+      </footer>
+    </div>
+  </body>
+</html>
