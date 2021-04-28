@@ -15,7 +15,7 @@ def encode_message(secret_message, user_image):
 
     binary_secret_message = string_to_binary(secret_message)
     
-    image_width, image_height = user_image.size
+    image_width, image_height = user_image.size`
 
     loaded_user_image = user_image.load()
 
