@@ -9,6 +9,8 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 def generate_password (character_set, length):
 
+    # will need to rework the if statements. the multiple select 
+    # on html creates and list, will be best to use contains on the list
     if character_set == "ascii":
         characters = string.ascii_letters
     elif character_set == "ascii+num":
@@ -61,7 +63,7 @@ def decrypt_file(filename, key_file):
     with open(filename, "wb") as fp:
         fp.write(decrypted_data)
 
-which_chars = "ascii"
+which_chars = "ascii+num+sym"
 generated_password = generate_password(which_chars, 8)
 print(generated_password)
 

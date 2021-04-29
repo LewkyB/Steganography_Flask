@@ -15,11 +15,72 @@
 <div>
    <form action="http://localhost:5000/upload_success" method="POST" enctype="multipart/form-data">
 
-      <input name="message_to_encrypt_textbox" placeholder="message to be encypted here">
+      <div>
+         <fieldset>
+            <legend>Password Generator</legend>
+            <select id="password_complexity_dropdown" name="password_complexity_dropdown">
+               <option value="ascii">Letter</option>
+               <option value="ascii+num">Letter+0-9</option>
+               <option value="ascii+num+sym">Letter+0-9+Symbols</option>
+            </select>
+            <input type="submit" name="generate_password_button" value="generate" />
+            <br><br>
+            <label for="password_generator_textbox">Generated password:</label>
+            <input name="password_generator_textbox" placeholder="">
+         </fieldset>
+      </div>
+      
+      <br>
+      
+      <div>
+         <fieldset>
+            <legend>Single Key Generator</legend>
+            <label for="key_generator_textbox">Encrypt key with:</label>
+            <input name="key_generator_textbox" placeholder="password">
+            <input type="submit" name="generate_key_button" value="generate and download" />
+         </fieldset>
+      </div>
+
+      <br>
 
       <div>
-         <input type="file" name="user_image_file" />
-         <input type="submit" name="upload_file_button" value="upload" />
+         <fieldset>
+            <legend>Single Key File Encryption</legend>
+            <label for="user_file_to_decrypt_single_key">File to Encrypt:</label>
+            <br>
+            <input type="file" name="user_file_to_encrypt_single_key" />
+            <input type="submit" name="upload_file_button" value="encrypt file and get key" />
+         </fieldset>
+      </div>
+
+      <br>
+
+      <div>
+         <fieldset>
+            <legend>Decrypt File with Single Key</legend>
+            <label for="user_file_to_decrypt_single_key">File to Decrypt</label>
+            <br>
+            <input type="file" name="user_file_to_decrypt_single_key" value="File to Decrypt" />
+            <br><br>
+            <label for="single_key_file">Single Key File:</label><br>
+            <input type="file" name="single_key_file" />
+            <input type="submit" name="upload_file_button" value="decrypt file and download" />
+         </fieldset>
+      </div>
+      
+      <br>
+
+      <div>
+         <fieldset>
+            <legend>RSA Key File Encryption</legend>
+            <label for="key_generator_textbox">Encrypt key with:</label>
+            <input name="key_generator_textbox" placeholder="password">
+            <br><br>
+            <label for="user_file_to_decrypt_single_key">File to Encrypt:</label>
+            <br>
+            <input type="file" name="user_file_to_encrypt_single_key" />
+            <input type="submit" name="upload_file_button" value="encrypt file and get key" />
+         </fieldset>
       </div>
 
    </form>
