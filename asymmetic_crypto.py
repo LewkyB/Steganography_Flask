@@ -19,8 +19,9 @@ def encrypt_file(filename, password):
         format=serialization.PrivateFormat.PKCS8,
         encryption_algorithm=serialization.BestAvailableEncryption(byte_password)
     )
+
     with open("private.pem", "wb") as key_file:
-        key_file.write(private_key)
+        key_file.write(pem)
     
     # prepare and write public key to file
     public_key = private_key.public_key()
@@ -34,26 +35,43 @@ def encrypt_file(filename, password):
     # load and encrypt data
     with open(filename, "rb") as fp:
         file_data = fp.read()
-        encrypted_data = private_key.sign(file_data)
+        encrypted_data = public_key.encrypt(
+            file_data,
+            padding.OAEP(
+                mgf=padding.MGF1(algorithm=hashes.SHA256()),
+                algorithm=hashes.SHA256(),
+                label=None
+            )
+        )
         
     with open("encrypted.txt", "wb") as fp:
         fp.write(encrypted_data)
         
 
-def decrypt_file(filename, private_key_filename):
+def decrypt_file(filename, private_key_filename, password):
     
-    with open(private_key_filename, "wb") as key_file:
-        key = key_file.read()
-
-    f = Fernet(key)
+    byte_password = bytes(password, 'utf-8') 
+    
+    with open(private_key_filename, "rb") as key_file:
+        private_key = serialization.load_pem_private_key(
+            key_file.read(),
+            password=byte_password,
+        )
 
     with open(filename, "rb") as fp:
         encrypted_file_data = fp.read()
 
-        decrypted_data = f.decrypt(encrypted_file_data)
+        decrypted_data = private_key.decrypt(
+            encrypted_file_data,
+            padding.OAEP(
+                mgf=padding.MGF1(algorithm=hashes.SHA256()),
+                algorithm=hashes.SHA256(),
+                label=None
+            )
+        )
 
     with open("decrypted.txt", "wb") as fp:
         fp.write(decrypted_data)
         
-# encrypt_file("test.txt")
-# decrypt_file("encrypted.txt", "private_secret.key")
+# encrypt_file("test.txt", "lukeluke")
+decrypt_file("encrypted.txt", "private.pem", "lukeluke")
