@@ -14,17 +14,13 @@ db.init_app(app)
 db.create_all()
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024 # limit to 16mb
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024 # limit file upload to 16mb
 
 app.config['SECRET_KEY'] = 'secret-key-goes-here'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
 
-from irctube import commands  # noqa: F401
-
-# for non auth routes
 from irctube.views import views as main_blueprint
 app.register_blueprint(main_blueprint)
-# for auth routes
 from irctube.auth import auth as auth_blueprint
 app.register_blueprint(auth_blueprint)
 
