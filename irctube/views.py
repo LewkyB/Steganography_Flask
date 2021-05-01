@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, request
 from werkzeug.utils import secure_filename
+from flask_login import login_required, current_user
 
 from . import db
 
@@ -23,7 +24,7 @@ def index():
 
 @views.route("/profile")
 def profile():
-    return render_template("profile.html")
+    return render_template("profile.html", name=current_user.name)
 
 
 @views.route("/password_generator", methods=["GET", "POST"])
