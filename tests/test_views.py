@@ -9,5 +9,5 @@ class TestViews(unittest.TestCase):
         self.client = app.test_client()
 
     def test_index(self):
-        rv = self.client.get('/')
+        rv = self.client.get("/")
         self.assertEqual(rv.status_code, 200)

@@ -2,8 +2,12 @@
 
 Videos from IRC
 
+Uses pre-commit and black to format the code
 ## Requirements ##
 
+    flask
+    pre-commit 
+    cryptography
 ## Installing ##
 
     $ python3 -m venv env

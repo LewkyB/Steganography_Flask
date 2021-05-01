@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-with open('requirements.txt') as f:
+with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='irctube',
-    version='1.0',
+    name="irctube",
+    version="1.0",
     long_description=__doc__,
     packages=find_packages(exclude=["tests"]),
     include_package_data=True,

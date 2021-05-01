@@ -7,9 +7,10 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-def generate_password (character_set, length):
 
-    # will need to rework the if statements. the multiple select 
+def generate_password(character_set, length):
+
+    # will need to rework the if statements. the multiple select
     # on html creates and list, will be best to use contains on the list
     if character_set == "ascii":
         characters = string.ascii_letters
@@ -18,27 +19,29 @@ def generate_password (character_set, length):
     elif character_set == "ascii+num+sym":
         characters = string.ascii_letters + string.digits + string.punctuation
 
-    return ''.join(random.choice(characters) for _ in range(length))
+    return "".join(random.choice(characters) for _ in range(length))
+
 
 def generate_key(password):
 
     # prepare password for use with Fernet
-    byte_password = bytes(password, 'utf-8') # password must be in byte form
+    byte_password = bytes(password, "utf-8")  # password must be in byte form
     salt = os.urandom(16)
     kdf = PBKDF2HMAC(
         algorithm=hashes.SHA256(),
         length=32,
         salt=salt,
-        iterations=100000, # change for performance, 100,000 recommended by Django in 2014
+        iterations=100000,  # change for performance, 100,000 recommended by Django in 2014
     )
 
     key = base64.urlsafe_b64encode(kdf.derive(byte_password))
-    
+
     with open("symmetric_secret.key", "wb") as key_file:
         key_file.write(key)
 
+
 def encrypt_file(target_filename, key_file):
-    
+
     with open(key_file, "rb") as key_file:
         key = key_file.read()
         f = Fernet(key)
@@ -49,9 +52,10 @@ def encrypt_file(target_filename, key_file):
 
     with open(target_filename, "wb") as fp:
         fp.write(encrypted_data)
-        
+
+
 def decrypt_file(filename, key_file):
-    
+
     with open(key_file, "rb") as key_file:
         key = key_file.read()
         f = Fernet(key)
@@ -62,6 +66,7 @@ def decrypt_file(filename, key_file):
 
     with open(filename, "wb") as fp:
         fp.write(decrypted_data)
+
 
 which_chars = "ascii+num+sym"
 generated_password = generate_password(which_chars, 8)
