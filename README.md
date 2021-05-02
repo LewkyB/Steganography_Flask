@@ -2,7 +2,7 @@
 
 Videos from IRC
 
-Uses pre-commit and black to format the code
+Uses pre-commit with black to format the code and flake8 as the linter
 ## Requirements ##
 
     flask
