@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+
+{% block title %}RSA File Encryption{% endblock %}
+
+{% block content %}
+   <form action="" method="POST">
+
+      <div>
+            <label for="key_generator_textbox">Encrypt key with:</label>
+            <input type="password" name="key_generator_textbox" placeholder="password">
+            <br><br>
+            <label for="user_file_to_decrypt_single_key">File to encrypt:</label>
+            <br>
+            <input type="file" name="user_file_to_encrypt_single_key" />
+            <input type="submit" name="upload_file_button" value="encrypt file and get key" />
+      </div>
+      </form>
+{% endblock %}

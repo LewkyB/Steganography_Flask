@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Single Key File Decryption{% endblock %}
+
+{% block content %}
+
+
+<form action="" method="POST">
+   <div>
+      <fieldset>
+         <legend>Decrypt File with Single Key</legend>
+         <label for="user_file_to_decrypt_single_key">File to decrypt</label>
+         <br>
+         <input type="file" name="user_file_to_decrypt_single_key" value="File to Decrypt" />
+         <br><br>
+         <label for="single_key_file">Single key file:</label><br>
+         <input type="file" name="single_key_file" />
+         <input type="submit" name="upload_file_button" value="decrypt file and download" />
+      </fieldset>
+   </div>
+
+</form>
+
+
+{% endblock %}

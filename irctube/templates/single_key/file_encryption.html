@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Single Key File Encryption{% endblock %}
+
+{% block content %}
+
+<form action="" method="POST">
+    <div>
+        <fieldset>
+            <legend>Single Key File Encryption</legend>
+            <label for="user_file_to_decrypt_single_key">File to Encrypt:</label>
+            <br>
+            <input type="file" name="user_file_to_encrypt_single_key" />
+            <input type="submit" name="upload_file_button" value="encrypt file and get key" />
+        </fieldset>
+    </div>
+</form>
+{% endblock %}

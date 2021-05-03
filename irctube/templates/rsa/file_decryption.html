@@ -1,29 +1,10 @@
 
 {% extends "base.html" %}
 
-{% block title %}Password Generator{% endblock %}
+{% block title %}RSA File Decryption{% endblock %}
 
 {% block content %}
-
-
-
    <form action="" method="POST">
-
-      <div>
-         <fieldset>
-            <legend>RSA Key File Encryption</legend>
-            <label for="key_generator_textbox">Encrypt key with:</label>
-            <input type="password" name="key_generator_textbox" placeholder="password">
-            <br><br>
-            <label for="user_file_to_decrypt_single_key">File to encrypt:</label>
-            <br>
-            <input type="file" name="user_file_to_encrypt_single_key" />
-            <input type="submit" name="upload_file_button" value="encrypt file and get key" />
-         </fieldset>
-      </div>
-
-      <br>
-
       <div>
          <fieldset>
             <legend>RSA Key File Decryption</legend>
@@ -40,8 +21,5 @@
             <input type="submit" name="upload_file_button" value="encrypt file and get key" />
          </fieldset>
       </div>
-
-   </form>
-
-
+      </form>
 {% endblock %}

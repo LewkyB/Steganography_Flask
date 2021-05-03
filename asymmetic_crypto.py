@@ -12,13 +12,13 @@ def encrypt_file(filename, password):
     )
 
     # convert password to bytes for use with serialization
-    byte_password = bytes(password, "utf-8")
+    byte_pass = bytes(password, "utf-8")
 
     # create private key with password and write to file
     pem = private_key.private_bytes(
         encoding=serialization.Encoding.PEM,
         format=serialization.PrivateFormat.PKCS8,
-        encryption_algorithm=serialization.BestAvailableEncryption(byte_password),
+        encryption_algorithm=serialization.BestAvailableEncryption(byte_pass),
     )
 
     with open("private.pem", "wb") as key_file:

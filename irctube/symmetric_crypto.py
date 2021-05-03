@@ -10,8 +10,6 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 def generate_password(character_set, length):
 
-    # will need to rework the if statements. the multiple select
-    # on html creates and list, will be best to use contains on the list
     if character_set == "ascii":
         characters = string.ascii_letters
     elif character_set == "ascii+num":
@@ -31,13 +29,16 @@ def generate_key(password):
         algorithm=hashes.SHA256(),
         length=32,
         salt=salt,
-        iterations=100000,  # change for performance, 100,000 recommended by Django in 2014
+        iterations=100000,
     )
 
     key = base64.urlsafe_b64encode(kdf.derive(byte_password))
 
-    with open("symmetric_secret.key", "wb") as key_file:
-        key_file.write(key)
+    # with open("symmetric_secret.key", "wb") as key_file:
+    #     key_file.write(key)
+    # return key_file
+
+    return key
 
 
 def encrypt_file(target_filename, key_file):
@@ -68,12 +69,13 @@ def decrypt_file(filename, key_file):
         fp.write(decrypted_data)
 
 
-which_chars = "ascii+num+sym"
-generated_password = generate_password(which_chars, 8)
-print(generated_password)
+# which_chars = "ascii+num+sym"
+# generated_password = generate_password(which_chars, 8)
+# print(generated_password)
 
-generate_key(generated_password)
-key_file_name = "symmetric_secret.key"
+# generate_key(generated_password)
+# key_file_name = "symmetric_secret.key"
 
-encrypt_file("test.txt", key_file_name)
-decrypt_file("test.txt", key_file_name)
+# encrypt_file("test.txt", key_file_name)
+# decrypt_file("test.txt", key_file_name)
+# print(generate_key("luke"))
