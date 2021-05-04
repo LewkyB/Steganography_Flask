@@ -7,8 +7,14 @@ from flask import (
     flash,
     Response,
     send_file,
+    session,
 )
+from flask_login import LoginManager, current_user
 
+from flask_login.utils import login_required
+
+from . import db
+from irctube.models import FileContents
 from irctube.symmetric_crypto import generate_password, generate_key
 
 import io
@@ -29,6 +35,7 @@ def password_generator():
 
 
 @encryption.route("/single_key_methods/key_generator", methods=["GET", "POST"])
+@login_required
 def single_key_generator():
 
     key = None
@@ -38,6 +45,15 @@ def single_key_generator():
         si = io.BytesIO()
         si.write(key)
         si.seek(0)
+
+        uploaded_file = FileContents(
+            user_id=current_user.id,
+            name=request.form["file_name"],
+            filetype="Single Key File",
+            data=si.read(),
+        )
+        db.session.add(uploaded_file)
+        db.session.commit()
 
         return send_file(
             si,
@@ -51,6 +67,8 @@ def single_key_generator():
 
 @encryption.route("/single_key_methods/file_encryption", methods=["GET", "POST"])
 def single_key_file_encryption():
+
+    new_file = FileContents()
 
     return render_template("single_key/file_encryption.html")
 

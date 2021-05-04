@@ -33,7 +33,7 @@ login_manager = LoginManager()
 login_manager.login_view = "auth.login"
 login_manager.init_app(app)
 
-from irctube.models import User
+from irctube.models import User, FileContents
 
 
 @login_manager.user_loader

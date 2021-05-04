@@ -1,5 +1,8 @@
 from flask import Blueprint, render_template
 from flask_login import current_user
+from irctube.models import FileContents
+from . import db
+
 
 views = Blueprint("views", __name__)
 
@@ -12,4 +15,11 @@ def index():
 
 @views.route("/profile")
 def profile():
-    return render_template("profile.html", name=current_user.name)
+
+    user_files = []
+
+    user_files = FileContents.query.filter_by(user_id=current_user.id).all()
+
+    return render_template(
+        "profile.html", name=current_user.name, user_files=user_files
+    )

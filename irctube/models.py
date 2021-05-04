@@ -1,4 +1,5 @@
 from flask_login import UserMixin
+from flask_sqlalchemy import SQLAlchemy
 from . import db
 
 
@@ -9,3 +10,11 @@ class User(UserMixin, db.Model):
     email = db.Column(db.String(100), unique=True)
     password = db.Column(db.String(100))
     name = db.Column(db.String(1000))
+
+
+class FileContents(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer)
+    name = db.Column(db.String(300))
+    filetype = db.Column(db.String(300))
+    data = db.Column(db.LargeBinary)

@@ -41,11 +41,10 @@ def generate_key(password):
     return key
 
 
-def encrypt_file(target_filename, key_file):
+def encrypt_file(target_filename, password):
 
-    with open(key_file, "rb") as key_file:
-        key = key_file.read()
-        f = Fernet(key)
+    key = generate_key(password)
+    f = Fernet(key)
 
     with open(target_filename, "rb") as fp:
         file_data = fp.read()

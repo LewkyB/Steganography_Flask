@@ -21,3 +21,8 @@ Uses pre-commit with black to format the code and flake8 as the linter
 ## Running tests ##
 
     python setup.py test
+
+
+## sources ##
+
+- [sqlalchemy flask info](https://flask-sqlalchemy.palletsprojects.com/en/2.x/#)
