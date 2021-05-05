@@ -3,11 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-.vscode/
-*.pem
-encrypted.txt
-decrypted.txt
-symmetric_secret.key
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
 
 # C extensions
 *.so
