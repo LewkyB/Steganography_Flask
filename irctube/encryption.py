@@ -12,6 +12,7 @@ from flask import (
 from flask_login import LoginManager, current_user
 
 from flask_login.utils import login_required
+import base64
 
 from . import db
 from irctube.models import FileContents
@@ -187,7 +188,9 @@ def rsa_file_encryption():
             ),
         )
 
-        file_for_storage = io.BytesIO(encrypted_data)
+        b64_encrypted_data = base64.b64encode(encrypted_data)
+
+        file_for_storage = io.BytesIO(b64_encrypted_data)
         file_for_storage.seek(0)
 
         # upload encrypted data to database
@@ -232,4 +235,37 @@ def rsa_file_encryption():
 
 @encryption.route("/rsa/file_decryption", methods=["GET", "POST"])
 def rsa_file_decryption():
+
+    if request.method == "POST":
+        byte_password = bytes(request.form["rsa_key_password"], "utf-8")
+
+        key_file_data = request.files["user_file_rsa_private_key"].read()
+        private_key = serialization.load_pem_private_key(
+            key_file_data,
+            password=byte_password,
+        )
+
+        encrypted_file_data = request.files["user_file_to_decrypt_rsa_file"].read()
+
+        decrypted_data = private_key.decrypt(
+            encrypted_file_data,
+            padding.OAEP(
+                mgf=padding.MGF1(algorithm=hashes.SHA256()),
+                algorithm=hashes.SHA256(),
+                label=None,
+            ),
+        )
+
+        # using pem because it is in byte form
+        decrypted_file = io.BytesIO()
+        decrypted_file.write(decrypted_data)
+        decrypted_file.seek(0)
+
+        return send_file(
+            decrypted_file,
+            as_attachment=True,
+            attachment_filename="decrypted_rsa",
+            mimetype="text/plain",
+        )
+
     return render_template("rsa/file_decryption.html")

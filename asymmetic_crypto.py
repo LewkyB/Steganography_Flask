@@ -15,14 +15,16 @@ def encrypt_file(filename, password):
     byte_pass = bytes(password, "utf-8")
 
     # create private key with password and write to file
-    pem = private_key.private_bytes(
+    private_pem = private_key.private_bytes(
         encoding=serialization.Encoding.PEM,
         format=serialization.PrivateFormat.PKCS8,
         encryption_algorithm=serialization.BestAvailableEncryption(byte_pass),
     )
+    print("private pem:")
+    print(private_pem.decode())
 
-    with open("private.pem", "wb") as key_file:
-        key_file.write(pem)
+    # with open("private.pem", "wb") as key_file:
+    #     key_file.write(pem)
 
     # prepare and write public key to file
     public_key = private_key.public_key()
@@ -30,8 +32,10 @@ def encrypt_file(filename, password):
         encoding=serialization.Encoding.PEM,
         format=serialization.PublicFormat.SubjectPublicKeyInfo,
     )
-    with open("public.pem", "wb") as key_file:
-        key_file.write(public_pem)
+    print("public pem:")
+    print(public_pem.decode())
+    # with open("public.pem", "wb") as key_file:
+    #     key_file.write(public_pem)
 
     # load and encrypt data
     with open(filename, "rb") as fp:
@@ -44,9 +48,11 @@ def encrypt_file(filename, password):
                 label=None,
             ),
         )
+        print("encrypted data:")
+        print(encrypted_data)
 
-    with open("encrypted.txt", "wb") as fp:
-        fp.write(encrypted_data)
+    # with open("encrypted.txt", "wb") as fp:
+    #     fp.write(encrypted_data)
 
 
 def decrypt_file(filename, private_key_filename, password):
@@ -75,5 +81,5 @@ def decrypt_file(filename, private_key_filename, password):
         fp.write(decrypted_data)
 
 
-# encrypt_file("test.txt", "lukeluke")
-decrypt_file("encrypted.txt", "private.pem", "lukeluke")
+encrypt_file("test.txt", "lukeluke")
+# decrypt_file("encrypted.txt", "private.pem", "lukeluke")
