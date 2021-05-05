@@ -15,12 +15,15 @@ from flask_login.utils import login_required
 
 from . import db
 from irctube.models import FileContents
-from irctube.symmetric_crypto import generate_password, generate_key
+from irctube.symmetric_crypto import decrypt_file, generate_password, generate_key
 
 from cryptography.fernet import Fernet
-from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-import base64
+
+from cryptography.hazmat.primitives import serialization
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.asymmetric import padding
+from cryptography.hazmat.primitives.asymmetric import rsa
 
 import io
 
@@ -97,6 +100,7 @@ def single_key_file_encryption():
         db.session.add(upload_encrypted_file)
         db.session.commit()
 
+        # upload key to database
         key_file = io.BytesIO()
         key_file.write(key)
         key_file.seek(0)
@@ -125,12 +129,104 @@ def single_key_file_decryption():
 
     if request.method == "POST":
         key_file = request.files["single_key_file"].read()
-        encrypted_file = request.files["user_file_to_encrypt_single_key"].read()
+        encrypted_file = request.files["user_file_to_decrypt_single_key"].read()
+
+        f = Fernet(key_file)
+        decrypted_data = f.decrypt(encrypted_file)
+
+        decrypted_file = io.BytesIO()
+        decrypted_file.write(decrypted_data)
+        decrypted_file.seek(0)
+
+        return send_file(
+            decrypted_file,
+            as_attachment=True,
+            attachment_filename="decrypted_file",
+            mimetype="text/plain",
+        )
+
     return render_template("single_key/file_decryption.html")
 
 
 @encryption.route("/rsa/file_encryption", methods=["GET", "POST"])
 def rsa_file_encryption():
+
+    if request.method == "POST":
+
+        # create private key
+        private_key = rsa.generate_private_key(
+            public_exponent=65537,
+            key_size=2048,
+        )
+
+        # convert password to bytes for use with serialization
+        byte_pass = bytes(request.form["rsa_key_password"], "utf-8")
+
+        # create private key with password
+        private_pem = private_key.private_bytes(
+            encoding=serialization.Encoding.PEM,
+            format=serialization.PrivateFormat.PKCS8,
+            encryption_algorithm=serialization.BestAvailableEncryption(byte_pass),
+        )
+
+        # prepare public key
+        public_key = private_key.public_key()
+        public_pem = public_key.public_bytes(
+            encoding=serialization.Encoding.PEM,
+            format=serialization.PublicFormat.SubjectPublicKeyInfo,
+        )
+
+        # load and encrypt data
+        file_data = request.files["user_file_to_encrypt_rsa"].read()
+        encrypted_data = public_key.encrypt(
+            file_data,
+            padding.OAEP(
+                mgf=padding.MGF1(algorithm=hashes.SHA256()),
+                algorithm=hashes.SHA256(),
+                label=None,
+            ),
+        )
+
+        file_for_storage = io.BytesIO(encrypted_data)
+        file_for_storage.seek(0)
+
+        # upload encrypted data to database
+        upload_encrypted_file = FileContents(
+            user_id=current_user.id,
+            name=request.form["file_name"],
+            filetype="RSA Encrypted File",
+            data=file_for_storage.read(),
+        )
+        db.session.add(upload_encrypted_file)
+        db.session.commit()
+
+        # using pem because it is in byte form
+        # upload public RSA key to database
+        public_key_file = io.BytesIO()
+        public_key_file.write(public_pem)
+        public_key_file.seek(0)
+
+        upload_key_file = FileContents(
+            user_id=current_user.id,
+            name=request.form["file_name"],
+            filetype="Public RSA Key File",
+            data=public_key_file.read(),
+        )
+        db.session.add(upload_key_file)
+        db.session.commit()
+
+        # using pem because it is in byte form
+        private_key_file = io.BytesIO()
+        private_key_file.write(private_pem)
+        private_key_file.seek(0)
+
+        return send_file(
+            private_key_file,
+            as_attachment=True,
+            attachment_filename=request.form["file_name"] + "_private.key",
+            mimetype="text/plain",
+        )
+
     return render_template("rsa/file_encryption.html")
 
 
