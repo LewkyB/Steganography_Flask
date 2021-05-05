@@ -128,6 +128,13 @@ def single_key_file_encryption():
 @encryption.route("/single_key_methods/file_decryption", methods=["GET", "POST"])
 def single_key_file_decryption():
 
+    # store all of available single key files for display on html template
+    user_files = FileContents.query.filter_by(
+        user_id=current_user.id, filetype="Single Key Encrypted File"
+    ).all()
+
+    print(user_files)
+
     if request.method == "POST":
         key_file = request.files["single_key_file"].read()
         encrypted_file = request.files["user_file_to_decrypt_single_key"].read()
@@ -146,7 +153,7 @@ def single_key_file_decryption():
             mimetype="text/plain",
         )
 
-    return render_template("single_key/file_decryption.html")
+    return render_template("single_key/file_decryption.html", user_files=user_files)
 
 
 @encryption.route("/rsa/file_encryption", methods=["GET", "POST"])
@@ -188,7 +195,7 @@ def rsa_file_encryption():
             ),
         )
 
-        b64_encrypted_data = base64.b64encode(encrypted_data)
+        b64_encrypted_data = base64.urlsafe_b64encode(encrypted_data)
 
         file_for_storage = io.BytesIO(b64_encrypted_data)
         file_for_storage.seek(0)
@@ -236,6 +243,11 @@ def rsa_file_encryption():
 @encryption.route("/rsa/file_decryption", methods=["GET", "POST"])
 def rsa_file_decryption():
 
+    # store all of available single key files for display on html template
+    user_files = FileContents.query.filter_by(
+        user_id=current_user.id, filetype="RSA Encrypted File"
+    ).all()
+
     if request.method == "POST":
         byte_password = bytes(request.form["rsa_key_password"], "utf-8")
 
@@ -245,7 +257,8 @@ def rsa_file_decryption():
             password=byte_password,
         )
 
-        encrypted_file_data = request.files["user_file_to_decrypt_rsa_file"].read()
+        b64_encrypted_file_data = request.files["user_file_to_decrypt_rsa_file"].read()
+        encrypted_file_data = base64.urlsafe_b64decode(b64_encrypted_file_data)
 
         decrypted_data = private_key.decrypt(
             encrypted_file_data,
@@ -268,4 +281,4 @@ def rsa_file_decryption():
             mimetype="text/plain",
         )
 
-    return render_template("rsa/file_decryption.html")
+    return render_template("rsa/file_decryption.html", user_files=user_files)

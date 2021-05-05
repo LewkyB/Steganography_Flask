@@ -5,11 +5,7 @@ block content %}
     <fieldset>
       <legend>RSA Key File Decryption</legend>
       <label for="rsa_key_password">Password used with private key:</label>
-      <input
-        type="password"
-        name="rsa_key_password"
-        placeholder="password"
-      />
+      <input type="password" name="rsa_key_password" placeholder="password" />
       <br /><br />
       <label for="user_file_rsa_private_key">Private Key File:</label>
       <br />
@@ -18,12 +14,37 @@ block content %}
       <label for="user_file_to_decrypt_single_key">File to Decrypt:</label>
       <br />
       <input type="file" name="user_file_to_decrypt_rsa_file" />
-      <input
-        type="submit"
-        name="upload_file_button"
-        value="encrypt file and get key"
-      />
+      <input type="submit" name="upload_file_button" value="encrypt file and get key" />
     </fieldset>
   </div>
+
+  <table class="table">
+
+    <thead>
+      <tr>
+        <th scope="col">Filename</th>
+        <th scope="col">Filetype</th>
+        <th scope="col">Download Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for file in user_files %}
+      <tr>
+        <th scope="row">{{file.name}}</th>
+        <td>{{file.filetype}} </td>
+        <td><a href={{ url_for('views.download_blob', id=file.id) }}>Download</a> </td>
+        <td>{{file.data}}</td>
+      </tr>
+
+      <p>
+      </p>
+
+      {% endfor %}
+
+    </tbody>
+
+  </table>
+</form>
+
 </form>
 {% endblock %}
