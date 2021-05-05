@@ -17,6 +17,11 @@ from . import db
 from irctube.models import FileContents
 from irctube.symmetric_crypto import generate_password, generate_key
 
+from cryptography.fernet import Fernet
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+import base64
+
 import io
 
 encryption = Blueprint("encryption", __name__)
@@ -68,7 +73,49 @@ def single_key_generator():
 @encryption.route("/single_key_methods/file_encryption", methods=["GET", "POST"])
 def single_key_file_encryption():
 
-    from cryptography.fernet import Fernet
+    if request.method == "POST":
+
+        key = generate_key(request.form["key_encryption_password"])
+
+        file_data = request.files["user_file_to_encrypt_single_key"].read()
+
+        # make Fernet object that will encrypt file
+        f = Fernet(key)
+        encrypted_data = f.encrypt(file_data)
+
+        # store encrypted data
+        file_for_storage = io.BytesIO(encrypted_data)
+        file_for_storage.seek(0)
+
+        # upload encrypted data to database
+        upload_encrypted_file = FileContents(
+            user_id=current_user.id,
+            name=request.form["file_name"],
+            filetype="Single Key Encrypted File",
+            data=file_for_storage.read(),
+        )
+        db.session.add(upload_encrypted_file)
+        db.session.commit()
+
+        key_file = io.BytesIO()
+        key_file.write(key)
+        key_file.seek(0)
+
+        upload_key_file = FileContents(
+            user_id=current_user.id,
+            name=request.form["file_name"],
+            filetype="Single Key File",
+            data=key_file.read(),
+        )
+        db.session.add(upload_key_file)
+        db.session.commit()
+
+        return send_file(
+            key_file,
+            as_attachment=True,
+            attachment_filename="symmetric_secret.key",
+            mimetype="text/plain",
+        )
 
     return render_template("single_key/file_encryption.html")
 
@@ -76,6 +123,9 @@ def single_key_file_encryption():
 @encryption.route("/single_key_methods/file_decryption", methods=["GET", "POST"])
 def single_key_file_decryption():
 
+    if request.method == "POST":
+        key_file = request.files["single_key_file"].read()
+        encrypted_file = request.files["user_file_to_encrypt_single_key"].read()
     return render_template("single_key/file_decryption.html")
 
 

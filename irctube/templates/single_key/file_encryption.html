@@ -1,20 +1,32 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block title %}Single Key File Encryption{% endblock
+%} {% block content %}
 
-{% block title %}Single Key File Encryption{% endblock %}
-
-{% block content %}
-
-<form action="" method="POST">
-    <div>
-        <fieldset>
-            <label for="key_generator_textbox">Encrypt key with:</label>
-            <input type="password" name="key_generator_textbox" placeholder="password">
-            <br>
-            <label for="user_file_to_decrypt_single_key">File to Encrypt:</label>
-            <br>
-            <input type="file" name="user_file_to_encrypt_single_key" />
-            <input type="submit" name="upload_file_button" value="encrypt file and get key" />
-        </fieldset>
-    </div>
+<form action="" method="POST" enctype="multipart/form-data">
+  <div>
+    <fieldset>
+      <label for="file_name">Name for file:</label>
+      <input
+        type="text"
+        name="file_name"
+        placeholder="enter name for key here"
+      />
+      <br />
+      <label for="key_encryption_password">Encrypt file with:</label>
+      <input
+        type="password"
+        name="key_encryption_password"
+        placeholder="password"
+      />
+      <br />
+      <label for="user_file_to_decrypt_single_key">File to Encrypt:</label>
+      <br />
+      <input type="file" name="user_file_to_encrypt_single_key" />
+      <input
+        type="submit"
+        name="upload_file_button"
+        value="encrypt file and get key"
+      />
+    </fieldset>
+  </div>
 </form>
 {% endblock %}
