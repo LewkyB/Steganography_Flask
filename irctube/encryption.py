@@ -68,7 +68,7 @@ def single_key_generator():
 @encryption.route("/single_key_methods/file_encryption", methods=["GET", "POST"])
 def single_key_file_encryption():
 
-    new_file = FileContents()
+    from cryptography.fernet import Fernet
 
     return render_template("single_key/file_encryption.html")
 

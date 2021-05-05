@@ -20,7 +20,8 @@
     <tr>
       <th scope="row">{{file.name}}</th>
       <td>{{file.filetype}} </td>
-      <td>{{file.data}} </td>
+      <td><a href={{ url_for('views.download_blob', id=file.id) }}>Download</a> </td>
+      <td>{{file.data}}</td>
     </tr>
   
   <p>

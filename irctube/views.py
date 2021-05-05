@@ -1,7 +1,8 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, send_file
 from flask_login import current_user
 from irctube.models import FileContents
 from . import db
+import io
 
 
 views = Blueprint("views", __name__)
@@ -22,4 +23,17 @@ def profile():
 
     return render_template(
         "profile.html", name=current_user.name, user_files=user_files
+    )
+
+
+@views.route("/download/<int:id>", methods=["GET"])
+def download_blob(id):
+
+    file_query = FileContents.query.filter_by(id=id).first()
+    file_to_download = file_query.data
+    download_name = file_query.name
+    return send_file(
+        io.BytesIO(file_to_download),
+        attachment_filename=download_name,
+        mimetype="text/plain",
     )
