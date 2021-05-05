@@ -30,4 +30,6 @@ Collection of encryption tools from [pyca/cryptography](https://cryptography.io/
 
 ## sources ##
 
-- [sqlalchemy flask info](https://flask-sqlalchemy.palletsprojects.com/en/2.x/#)
+- [CSS by bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [bootstrap theme](https://github.com/ThemesGuide/bootstrap-themes/tree/master/fresca)
+- [pyca/cryptography](https://cryptography.io/en/latest/)
