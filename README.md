@@ -2,11 +2,17 @@
 
 Collection of encryption tools from [pyca/cryptography](https://cryptography.io/en/latest/) served through a flask application. 
 
-## Requirements ##
+## features ##
 
-    flask
-    pre-commit 
-    cryptography
+- Password Generator
+- [Password Based Key Generator](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/#variable-cost-algorithms)
+- [Symmetric Encryption/Decryption](https://cryptography.io/en/latest/fernet/)
+- [RSA Encryption/Decryption](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/)
+- user authentication
+- profile page for viewing/downloading keys and encrypted files
+- sqlite3 database for storage
+
+
 ## Installing ##
 
     $ python3 -m venv env

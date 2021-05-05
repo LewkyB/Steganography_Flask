@@ -66,15 +66,3 @@ def decrypt_file(filename, key_file):
 
     with open(filename, "wb") as fp:
         fp.write(decrypted_data)
-
-
-# which_chars = "ascii+num+sym"
-# generated_password = generate_password(which_chars, 8)
-# print(generated_password)
-
-# generate_key(generated_password)
-# key_file_name = "symmetric_secret.key"
-
-# encrypt_file("test.txt", key_file_name)
-# decrypt_file("test.txt", key_file_name)
-# print(generate_key("luke"))

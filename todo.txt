@@ -7,3 +7,5 @@
 - limit file type uploads
 - test file types other than txt
 - functions for uploading files to database to reduce function size
+- improve html/css layouts
+- auto create db if not present
