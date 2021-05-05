@@ -1,8 +1,7 @@
-# irctube #
+# Encryption Tools #
 
-Videos from IRC
+Collection of encryption tools from [pyca/cryptography](https://cryptography.io/en/latest/) served through a flask application. 
 
-Uses pre-commit with black to format the code and flake8 as the linter
 ## Requirements ##
 
     flask
@@ -16,7 +15,7 @@ Uses pre-commit with black to format the code and flake8 as the linter
 
 ## Running locally ##
 
-    FLASK_DEBUG=TRUE FLASK_APP=irctube flask run
+    FLASK_DEBUG=TRUE FLASK_APP=encryption_tools flask run
 
 ## Running tests ##
 

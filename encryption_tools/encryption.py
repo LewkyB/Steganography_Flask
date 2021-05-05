@@ -1,25 +1,22 @@
 from flask import (
     Blueprint,
     render_template,
-    redirect,
-    url_for,
     request,
-    flash,
-    Response,
     send_file,
-    session,
 )
-from flask_login import LoginManager, current_user
+from flask_login import current_user
 
 from flask_login.utils import login_required
 import base64
 
 from . import db
-from irctube.models import FileContents
-from irctube.symmetric_crypto import decrypt_file, generate_password, generate_key
+from encryption_tools.models import FileContents
+from encryption_tools.symmetric_crypto import (
+    generate_password,
+    generate_key,
+)
 
 from cryptography.fernet import Fernet
-from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives import hashes
@@ -257,6 +254,7 @@ def rsa_file_decryption():
             password=byte_password,
         )
 
+        # data saved as base64, must decode for decryption to work
         b64_encrypted_file_data = request.files["user_file_to_decrypt_rsa_file"].read()
         encrypted_file_data = base64.urlsafe_b64decode(b64_encrypted_file_data)
 

@@ -1,0 +1,9 @@
+- wtform
+- dropdown selection for files to decrypt
+- verify rsa keys
+- add file hashing
+- secure filenames
+- limit upload size
+- limit file type uploads
+- test file types other than txt
+- functions for uploading files to database to reduce function size

@@ -1,7 +1,6 @@
 from flask import Blueprint, render_template, send_file
 from flask_login import current_user
-from irctube.models import FileContents
-from . import db
+from encryption_tools.models import FileContents
 import io
 
 

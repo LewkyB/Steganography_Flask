@@ -1,5 +1,5 @@
 {
     "python.pythonPath": "/home/thinkpad/.pyenv/versions/3.8.8/envs/venv_infosec2/bin/python",
     "python.linting.flake8Enabled": true,
-    "python.linting.enabled": false
+    "python.linting.enabled": true
 }

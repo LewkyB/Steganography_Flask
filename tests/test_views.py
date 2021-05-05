@@ -1,6 +1,6 @@
 import unittest
 
-from irctube import app
+from encryption_tools import app
 
 
 class TestViews(unittest.TestCase):
